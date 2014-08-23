@@ -1,0 +1,38 @@
+.item {
+     width: 33.33%;
+     min-width: 320px;
+     /*display: inline-block;*/
+
+}
+
+.item.huge {
+     width:50%;
+     min-width:320px;
+}
+
+.item img {
+     width:100%;
+}
+
+.item .hovertitle { 
+     display:none;
+}
+
+.logo {
+     height:200px;
+}
+
+#container {
+     text-align:center;
+}
+
+
+/*media queries for mobile, tablet-landscape, tablet-portait 
+body {
+     width:100%;
+}
+
+#container {
+     width: 95%;
+     margin: auto;
+}

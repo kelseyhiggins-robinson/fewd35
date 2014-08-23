@@ -1,0 +1,61 @@
+body {
+	background: #669999;
+	color: white;
+}
+
+.container {
+	max-width: 1000px;
+}
+
+main img {
+	border: 1px solid white;
+	padding: 5px;
+	border-radius: 50%;
+	height: 300px;
+	float:left;
+	margin-top: 20px;
+}
+
+main .about {
+	float:right;
+	width:678px;
+	margin-left: 10px;
+	margin-top: 20px;
+}
+
+main nav {
+	font-family: 'Arimo', sans-serif;
+	font-size: 18px;
+}
+
+h1 {
+	font-size: 30px;
+}
+
+p {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 15px;
+	margin-top: 40px;
+}
+hr div {
+	margin-left: 10px;
+}
+footer nav {
+	font-family: 'Arimo', sans-serif;
+	font-size: 15px;
+
+}
+a {
+	color: #00cc99;
+}
+
+.job .title, 
+.job .company, 
+.job .date, 
+.resume-header, 
+.resume-education,
+.education .title,
+.education .degree,
+.education .date  {
+	margin:0;
+}

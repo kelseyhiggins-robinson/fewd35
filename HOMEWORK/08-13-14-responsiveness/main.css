@@ -1,0 +1,73 @@
+.nav {
+  background-color: #666699;
+  height: 75px;
+}
+
+article {
+  background-color: purple;
+  display: none;
+}
+
+.B {
+  background-color: #660066;
+  height: 200px;
+}
+
+.C {
+  background-color: #0066FF;
+  height: 200px;
+}
+
+.D {
+  background-color: #3366CC;
+  height: 200px;
+}
+
+.E {
+  background-color: #003399;
+  height: 200px;
+}
+
+.F {
+  background-color: #000099;
+  height: 200px;
+}
+
+.G {
+  background-color: #0000CC;
+  height: 200px;
+}
+
+
+.H {
+  background-color: #000066;
+  height: 200px;
+}
+
+.I {
+  background-color: #333399;
+  height: 200px;
+}
+
+
+@media (min-width: 850px) {
+    div {
+      width:33.33333%;
+      float:left;
+    }
+    .nav {
+      width: 100%;
+      display: none;
+    }
+
+    .B {
+     float: left;
+         }
+
+    .F {
+      clear: both;
+    }
+    article {
+      display: inline;
+    }
+}

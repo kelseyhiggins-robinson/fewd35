@@ -1,0 +1,24 @@
+div {
+  background:blue;
+  color:white;
+  font-size:24px;
+}
+
+#container {
+  background:red;
+}
+
+@media (min-width: 700px) and (max-width: 849px) {
+    div {
+      width:50%;
+      float:left;
+    }
+}
+
+@media (min-width: 850px) {
+    div {
+      width:33.33333%;
+      float:left;
+       font-size:18px;
+    }
+}

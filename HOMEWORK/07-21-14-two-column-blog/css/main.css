@@ -1,0 +1,193 @@
+.container {
+	width: 900px;
+	margin-left: 15px;
+	font-family:'Lato', sans-serif;
+	color: #464646;
+	font-size: 12px;
+}
+
+/* header */
+h1, h1 a:visited {
+	color:#CC0000;
+	font-size: 24px;
+	font-weight: 300;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.sub-title {
+	font-size: 15px;
+	font-weight: 300;
+	color: #B2B2B2;
+	margin-left: 15px;
+}
+
+h1, .sub-title {
+	display: inline;
+	padding-top: 20px;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+    text-decoration: none;
+    color: black;
+}
+
+.header-nav a {
+	text-align: center;
+	display:block;
+	font-weight:300; 
+	font-size: 14px;
+	color: white;
+	background: black;
+	height: 25px;
+	width: 149px;
+	margin-top: 10px;
+	padding-top: 10px;
+}
+
+.header-nav li {
+	display:inline-block;
+	float: left;
+	margin-right: 1px;
+}
+
+.header-nav .last  {
+	margin-right:0;
+}
+/* end header */
+
+/* main */
+.main-inner {
+	float: left;
+	width: 600px;
+}
+
+.date {
+	font-size:16px;
+	font-weight:300;
+	color: #B2B2B2;
+	margin-top: 30px;
+	margin-bottom: 0;
+}
+
+.title-blog {
+	color:#353535;
+	font-size: 18px;
+	font-weight: 300;
+	margin: 6px 0 6px 0;
+}
+ .img-main {
+ 	width: 600px;
+ 	margin-bottom:12px;
+ }
+
+.initial-cap { 
+	line-height:45px;
+	font-size:60px;
+	font-weight:300;
+	color:#B2B2B2;
+	float: left;
+	padding-right: 5px;
+	padding-bottom: 4px;
+}
+p {
+	line-height:16px;
+}
+
+.continue {
+	float:right;
+}
+
+.continue-more a,
+.continue-more a:visited {
+	color:#CC0000;
+	font-weight: 400;
+}
+
+article	{
+	clear: both;
+}
+
+.continue-more {
+	margin: 10px 0 25px 0;
+	float: right;
+}
+
+hr {
+	clear: both;
+}
+/* end main */
+
+/* aside */
+aside {
+	float: left;
+	width: 260px;
+	margin: 60px 0 0 40px;
+}
+
+.aside-titles {
+	font-weight:700;
+	margin-bottom: 10px;
+}
+
+.img-aside {
+	margin: 25px 0 25px 0;
+	height: 250px;
+}
+.popular-posts {
+	margin-top: 25px;
+}
+
+.aside-links{
+	list-style: initial;
+	list-style-position: inside;
+}
+
+.aside-links a {
+	font-weight:400; 
+	color:#CC0000; 
+	line-height: 16px;
+}
+
+li {
+    color: #B2B2B2;
+}
+/* end aside */
+
+/*footer*/
+footer {
+	float: left;
+	width: 600px;
+}
+
+footer {
+	margin-top: 20px;
+}
+
+.footer-nav a {
+	clear: both;
+	font-weight:400; 
+	color:#CC0000; 
+	border-right: 1px solid gray;
+	padding: 0 10px;
+}
+
+.footer-nav .first {
+	padding: 0 10px 0 0;
+
+}
+
+.footer-nav .last  {
+	border:0;
+}
+
+.copyright {
+	font-size: 12px;
+	font-weight:300;
+	color: #B2B2B2;
+	margin-top: 20px;
+}
+/* end footer */

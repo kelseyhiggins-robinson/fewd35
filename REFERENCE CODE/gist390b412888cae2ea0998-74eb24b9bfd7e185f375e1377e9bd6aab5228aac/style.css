@@ -1,0 +1,12 @@
+article {
+  width:100px;
+  height:100px;
+  margin:10px;
+  background:blue;
+  float:left;
+}
+
+.last {
+	float:none;
+  clear:both;
+}

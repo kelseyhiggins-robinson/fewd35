@@ -1,0 +1,118 @@
+
+header {
+	background: black;
+	border-bottom: 3px solid yellow;
+}
+
+h1 {
+	color: yellow;
+	font-size: 16px;
+	font-weight: 700;
+	letter-spacing: 1px;
+}
+
+nav {
+	display: none;
+}
+
+.sub-bkgrd .sub-title {
+	display: none;
+}
+
+#hamburger {
+  width:25px;
+  height:25px;
+  background:yellow;
+}
+
+ .greyBar {
+ 	background-color: #B2B3B1;
+ }
+
+.backgroundImg {
+	background-image: url("../images/coworking.jpg");
+	background-size: 100% 100%;
+	background-repeat: none;
+}
+
+@media (min-width:300px) {
+	#hamburger {
+    display:none;
+  }
+  
+  nav {
+    display:inline-block;
+  }
+
+li {
+	color: white;
+	display: inline-block;
+	float: left;
+	margin: 15px 0 0 25px;
+	padding-right: 0;
+}
+}
+
+
+@media (min-width:500px) {
+#hamburger {
+    display:none;
+  }
+  
+nav {
+    display:block;
+  }
+
+li {
+	color: white;
+	display: inline-block;
+	float: left;
+	margin: 15px 0 0 25px;
+	padding-right: 0;
+}
+
+.sub-bkgrd {
+	background-color: #B2B3B1;
+	width: 100%;
+	height: 50px;
+	text-align: center;
+ }
+
+ .sub-title{
+ 	font-family: 'Merriweather', serif;
+	font-weight: 700;
+	font-style: italic;
+	font-size: 18px;
+	padding: 15px 0 15px 40px;
+}
+}
+/*
+
+aside {
+  background:green;
+}
+
+ 
+nav {
+  display:none;
+}
+ 
+@media (min-width:500px) {
+  
+  main, aside {
+    float:left;
+  }
+  
+  main {
+    width:70%;
+  }
+  
+  aside {
+    width:30%;
+  }
+  
+
+    
+}
+
+

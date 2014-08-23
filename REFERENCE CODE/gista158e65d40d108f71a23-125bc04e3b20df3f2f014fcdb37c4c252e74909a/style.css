@@ -1,0 +1,52 @@
+header, footer {
+  height:100px;
+  background:blue;
+}
+
+article {
+  width:16.6666%;
+  float:left;
+  background:pink;
+}
+
+article p {
+  padding:5px;
+  margin:5px;
+  border:1px solid black;
+}
+
+main, aside {
+  height:200px;
+  float:left;
+}
+
+main {
+  width:70%;
+  height:400px;
+}
+
+.main-inner {
+	height:400px;
+  margin-right:5%;
+  border-right:5px solid #000;
+  padding-right:10px;
+  background:red;
+}
+
+aside {
+  width:30%;
+  background:green;
+}
+
+.clearfix {
+  clear:both;
+}
+
+footer {
+	background:orange;
+}
+
+.main2 {
+	height:200px;
+  background:purple;
+}

@@ -1,0 +1,47 @@
+main, aside {
+  height:300px;
+}
+ 
+main {
+  background:blue;
+}
+ 
+aside {
+  background:green;
+}
+ 
+#hamburger {
+  width:25px;
+  height:25px;
+  background:red;
+}
+ 
+nav {
+  display:none;
+}
+ 
+@media (min-width:500px) {
+  
+  main, aside {
+    float:left;
+  }
+  
+  main {
+    width:70%;
+  }
+  
+  aside {
+    width:30%;
+  }
+  
+  #hamburger {
+    display:none;
+  }
+  
+  nav {
+    display:block;
+  }
+    
+}
+
+
