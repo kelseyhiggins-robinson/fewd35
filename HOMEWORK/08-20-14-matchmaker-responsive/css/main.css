@@ -1,7 +1,27 @@
+.container {
+	max-width: 1040px;
+	margin: auto;
+}
+body {
+	background-color:black; 
+}
 
 header {
 	background: black;
 	border-bottom: 3px solid yellow;
+}
+
+#hamburger {
+	margin: 5px 0 5px 5px;
+	float: left;
+	display: inline-block;
+}
+
+#hamburger div {
+  width:25px;
+  height:2px;
+  background:yellow;
+  margin: 0 0 5px 5px;
 }
 
 h1 {
@@ -9,6 +29,8 @@ h1 {
 	font-size: 16px;
 	font-weight: 700;
 	letter-spacing: 1px;
+	padding: 5px 0 5px 5px;
+	text-align: center;
 }
 
 nav {
@@ -19,42 +41,160 @@ nav {
 	display: none;
 }
 
-#hamburger {
-  width:25px;
-  height:25px;
-  background:yellow;
-}
-
  .greyBar {
  	background-color: #B2B3B1;
+ 	height: 25px;
+ 	text-align: center;
  }
 
-.backgroundImg {
-	background-image: url("../images/coworking.jpg");
-	background-size: 100% 100%;
-	background-repeat: none;
+ .sub-title {
+ 	padding: 4px 0;
+ 	font-family: 'Merriweather', serif;
+	font-weight: 700;
+	font-style: italic;
+	font-size: 14px;
+ }
+ .strikeThru {
+ 	text-decoration:line-through;
+	color: #8e8f8d;
+}
+ 
+.sub-title .underline {
+	border-bottom: 1.5px solid yellow;
 }
 
-@media (min-width:300px) {
-	#hamburger {
-    display:none;
-  }
-  
-  nav {
-    display:inline-block;
-  }
+main {
+	width: 100%;
+}
 
-li {
-	color: white;
-	display: inline-block;
+.mainImg {
+	width: 100%;
 	float: left;
-	margin: 15px 0 0 25px;
-	padding-right: 0;
-}
 }
 
+aside {
+	width: 80%;
+	height: 75%;
+	background-color: white;
+	opacity: .75;
+	float: right;
+	padding: 20px;
+	box-shadow: 1px 2px 1px #888888;
+	margin-top: -57%;
+	margin-right: 5%;
+	min-width: 200px;
+	max-width: 500px;
+}
+
+.asideTitle {
+	font-family: 'Source Sans Pro';
+	font-weight:700;
+	font-size: 16px;
+	margin-top: 0px;
+}
+.asideText {
+	font-family: 'Source Sans Pro';
+	font-weight:400;
+	font-size: 12px;
+	line-height: 1.25;
+	margin-top: 8px;
+}
+
+.createBox {
+	width: 125px;
+	height: 25px;
+	background-color: yellow;
+	border-radius: 3.5px;
+	margin: 10px auto;
+	box-shadow: 1px 2px 1px #888888;
+}
+
+.buttonText {
+	font-family: 'Oswald', sans-serif;
+	font-weight:400;
+	font-size: 12px;
+	letter-spacing: .5px;
+	text-align: center;
+	padding-top: 7px;
+}
+
+.articles {
+	clear: both;
+	width: 100%;
+	padding: 5px 0 20px 0;
+	background-color: white;
+}
+
+.articles article {
+	padding-top: 20px;
+	font-family: 'Source Sans Pro';
+	font-weight:400;
+	font-size: 12px;
+	text-align: center;
+	margin: 0 20px 0 20px;
+	border-bottom-color: black;
+	border-bottom-width: 70%;
+}
+
+.articleHeading {
+	font-family: 'Merriweather', serif;
+	font-weight: 700;
+	font-size: 14px;
+	margin-bottom: 5px;
+}
+
+
+.signUpBox {
+	width: 125px;
+	height: 25px;
+	background-color:#B2B3B1;
+	border-radius: 3.5px;
+	margin: 10px auto;
+	text-align: center;
+	box-shadow: 1px 2px 1px #888888;
+}
+
+hr {
+	color: black;
+	width: 70%;
+	margin-top: 30px;
+}
+
+.footer {
+	background-color: black;
+	width: 100%;
+	height: 30px;
+	padding-top: 10px;
+}
+
+.footerText {
+	font-family: 'Source Sans Pro';
+	color: white;
+	font-size: 14px;
+	margin-top: 10px;
+	text-align: center;
+}
 
 @media (min-width:500px) {
+	#hamburger {
+		display:none;
+	}
+  
+	nav {
+	    display:inline-block;
+	  }
+
+	li {
+		color: white;
+		display: inline-block;
+		float: left;
+		margin: 15px 0 0 25px;
+		padding-right: 0;
+	}
+}
+
+
+@media (min-width:900px) {
 #hamburger {
     display:none;
   }
