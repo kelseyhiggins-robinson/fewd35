@@ -15,7 +15,7 @@ function getData() {
         $.each(blogPosts, function(i, post) {
             postCounter++;
             if (postCounter == 2) {
-                var logo = '<div class="item logo">' +
+                var logo = '<div class="item logoLarge About">' +
                     'HOWDY!!!!' +
                     '</div>';
                 container.append(logo);
@@ -52,12 +52,6 @@ function getData() {
             // append the HTML string to #container
             container.append(itemTemplate);
 
-        });
-
-        var msnry = new Masonry('#container', {
-            // options
-            // columnWidth: 200,
-            itemSelector: '.item'
         });
 
     });
