@@ -11,6 +11,10 @@ header {
 	border-bottom: 3px solid yellow;
 }
 
+.clearfix {
+	clear:both;
+}
+
 #hamburger {
 	margin: 5px 0 5px 5px;
 	float: left;
@@ -141,7 +145,6 @@ aside {
 }
 
 .articles {
-	clear: both;
 	width: 100%;
 	padding: 5px 0 20px 0;
 	background-color: white;
@@ -197,7 +200,7 @@ hr {
 	text-align: center;
 }
 
-@media (min-width:525px) and (max-width: 899px) {
+@media (min-width:525px) and (max-width:899px) {
 	#hamburger {
 		display:none;
 }
@@ -236,120 +239,137 @@ hr {
 		max-width: 500px;
 }
 
-.asideTitle {
-	font-family: 'Source Sans Pro';
-	font-weight:700;
-	font-size: 20px;
-	margin-top: 0px;
+	.asideTitle {
+		font-family: 'Source Sans Pro';
+		font-weight:700;
+		font-size: 20px;
+		margin-top: 0px;
 }
-.asideText {
-	font-family: 'Source Sans Pro';
-	font-weight:400;
-	font-size: 14px;
-	line-height: 1.25;
-	margin-top: 8px;
-}
-
-.createBox {
-	width: 135px;
-	height: 35px;
-	background-color: yellow;
-	border-radius: 3.5px;
-	margin: 20px auto;
-	box-shadow: 1px 2px 1px #888888;
+	.asideText {
+		font-family: 'Source Sans Pro';
+		font-weight:400;
+		font-size: 14px;
+		line-height: 1.25;
+		margin-top: 8px;
 }
 
-.createBox .buttonText {
-	font-size: 14;
-	padding-top: 12px;
+	.createBox {
+		width: 135px;
+		height: 35px;
+		background-color: yellow;
+		border-radius: 3.5px;
+		margin: 20px auto;
+		box-shadow: 1px 2px 1px #888888;
 }
 
-.articles {
-	float: left;
-	padding-bottom: 40px;
-	font-size: 14px;
+	.createBox .buttonText {
+		font-size: 14;
+		padding-top: 12px;
 }
-
-.article1 {
-	text-align: center;
-	border-bottom-color: black;
-	border-bottom-width: 70%;
-	margin: 0 10px 20px 10px;
+	.articles {
+		padding-bottom: 10px;
+		font-size: 14px;
+		height:240px;
 }
-
-.article2 {
-	border-right: 1px solid #F0F0F0;
-}
-
-.article2, .article3 {
-	float: left;
-	width: 39%;
-	border-bottom: none;
-	padding-top: 40px;
-	padding-right: 15px;
-}
-
-hr {
-	display: none;
-}
-
-.footer {
-	clear: both;
-}
+	.articles hr {
+	 	display:none;
+ }
+	.articles article {
+		float: left;
+		display: block;
+		width: 45%;
+		margin: 0 10px 0px 10px;
+}}
 
 
 @media (min-width:900px) {
 #hamburger {
-    display:none;
-  }
-  
-nav {
-    display:block;
-  }
+		display:none;
+}
 
+	h1 {
+		text-align: left;
+		padding: 10px 0 5px 20px;
+		font-size: 18px;
+} 
 
-.sub-bkgrd {
-	background-color: #B2B3B1;
-	width: 100%;
-	height: 50px;
-	text-align: center;
+	nav {
+		display: block;
+	  }
+
+	header {
+		width: 100%;
+		height: 80px;
+}
+
+	.greyBar {
+		height: 30px;
+	}
+
+	.sub-title {
+		padding: 7px 0 0 20px;
+		font-size: 16px;
+		text-align: left;
+}
+	aside {
+		width: 30%;
+		height: 75%;
+		padding: 20px;
+		margin-top: -57%;
+		margin-right: 5%;
+		min-width: 200px;
+		max-width: 500px;
+}
+
+	.asideTitle {
+		font-family: 'Source Sans Pro';
+		font-weight:700;
+		font-size: 20px;
+		margin-top: 0px;
+}
+	.asideText {
+		font-family: 'Source Sans Pro';
+		font-weight:400;
+		font-size: 14px;
+		line-height: 1.25;
+		margin-top: 8px;
+}
+
+	.createBox {
+		width: 135px;
+		height: 35px;
+		background-color: yellow;
+		border-radius: 3.5px;
+		margin: 20px auto;
+		box-shadow: 1px 2px 1px #888888;
+}
+
+	.createBox .buttonText {
+		font-size: 14;
+		padding-top: 12px;
+}
+	.articles {
+		padding-bottom: 10px;
+		font-size: 14px;
+		height:130px;
+}
+	.articles hr {
+	 	display:none;
  }
+	.articles article {
+		float: left;
+		display: block;
+		width: 30%;
+		margin: 5px 10px 0px 10px;
+		border-right: 1px solid #F0F0F0;
+		padding-right: 10px;
 
- .sub-title{
- 	font-family: 'Merriweather', serif;
-	font-weight: 700;
-	font-style: italic;
-	font-size: 18px;
-	padding: 15px 0 15px 40px;
 }
-}
-/*
+article:last-child {
+	border-right: none;
+	padding-right: 0px;
 
-aside {
-  background:green;
 }
-
- 
-nav {
-  display:none;
-}
- 
-@media (min-width:500px) {
-  
-  main, aside {
-    float:left;
-  }
-  
-  main {
-    width:70%;
-  }
-  
-  aside {
-    width:30%;
-  }
-  
-
-    
 }
 
 
