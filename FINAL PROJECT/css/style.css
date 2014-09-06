@@ -14,42 +14,39 @@
 }
 
 .logoLarge {
-     height:200px;
-}
-
-h3 {
-
+     height: 20px;
 }
 
 .logoMobile {
-     display:none;
+     display: none;
+}
+
+h3 {
+     font-family: arial;
 }
 
 @media (min-width:720px) and (max-width:1099px) {
-     .mobileLogo {
+     .logoMobile {
           display:block;
           width: 100%;
-          height: 200px;
+          height: 100px;
      }
  
      .item {
           width:50%;
           display:inline-block;
           }
-     .logoLarge {
-          display:none;
-     }
 
-     .navLarge {
+     .logoLarge {
           display:none;
      }
 }
 
-@media (min-width:320px) and (max-width:719px) {
-     .mobileLogo {
+@media (min-width:200px) and (max-width:719px) {
+     .logoMobile  {
           display:block;
           width: 100%;
-          height: 150px;
+          height: 75px;
      }
  
      .item {
@@ -60,9 +57,4 @@ h3 {
      .logoLarge {
           display:none;
      }
-
-     .navLarge {
-          display:none;
-     }
-
 
