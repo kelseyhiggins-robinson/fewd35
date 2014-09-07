@@ -7,7 +7,7 @@ function renderList(blogPosts) {
         postCounter++;
         if (postCounter == 2) {
             var logo = '<div class="item logoLarge">' +
-                'HOWDY!!!!' +
+                '<img src="/images/JPsLabLogo3.png">' +
                 '</div>';
             container.append(logo);
         }
@@ -23,14 +23,14 @@ function renderList(blogPosts) {
         //create div item template
         // create HTML string for this post
 
+// 
 
-        <div class="itemHovertitle">
-        	
-        	<h2>This is the start of some text</h2>
-        	<a href="#">View more</a>
+// <div class="itemHovertitle">
+            
+//             <h2>This is the start of some text</h2>
+//             <a href="#">View more</a>
 
-        </div>
-
+//         </div>
 
 
         var itemTemplate = '<div class="item" id="'+ post.id +'">' +
