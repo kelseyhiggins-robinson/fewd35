@@ -3,9 +3,17 @@ function renderPost(post) {
 
 	// update html with blog data using $(...).html(data);
 	$('.caption').html(post.caption);
+    $('.date').html(post.date);
+    $('.tags').html(post.tags);
+   
 
-	var pic = getPic(post);
-	console.log(pic);
+    var pic = getPic(post);
+    console.log(pic);
+
+    $('.jumbo').html(pic);
+        console.log(pic);
+
+
 }
 
 

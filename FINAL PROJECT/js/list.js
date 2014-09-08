@@ -7,7 +7,7 @@ function renderList(blogPosts) {
         postCounter++;
         if (postCounter == 2) {
             var logo = '<div class="item logoLarge">' +
-                '<img src="/images/JPsLabLogo3.png">' +
+                '<img src="/images/JPsLabLogo4.png">' +
                 '</div>';
             container.append(logo);
         }
@@ -35,7 +35,7 @@ function renderList(blogPosts) {
 
         var itemTemplate = '<div class="item" id="'+ post.id +'">' +
          	'<img class="pic" src="' + jumbo + '" />' +
-            '<div class="hovertitle">' +
+            // '<div class="hovertitle">' +
             // '<a target="_blank" href="' + url + '">' + caption + '</a>' +
             caption + '</div>' + 
            
