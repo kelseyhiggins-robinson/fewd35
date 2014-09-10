@@ -37,7 +37,7 @@ function renderList(blogPosts) {
          	'<img class="pic" src="' + jumbo + '" />' +
             // '<div class="hovertitle">' +
             // '<a target="_blank" href="' + url + '">' + caption + '</a>' +
-            caption + '</div>' + 
+            //caption + '</div>' + 
            
             '</div>';
 

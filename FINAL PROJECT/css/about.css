@@ -1,33 +1,30 @@
-#container {
+body {
      width: 100%;
      background-image: url('/images/JP.jpg');
+     background-size: cover;
      background-repeat: no-repeat;
 }
 
-main {
-	width: 100%;
-}
 
 .logo img { 
 	max-height:225px;
-	width: 20%;
-	float: left;
-	display: inline-block;
+	position: absolute;
+	left: 1%;
+	right: 1%;
 }
 
-.textBox {
+
+main {
 	width: 70%;
-	/*height: 75%;*/
+	position: absolute;
+	top: 20%;
+	left: 50%;
 	background-color: #D1D1E0;
 	opacity: .75;
 	padding: 20px;
 	box-shadow: 1px 2px 1px #888888;
-	margin-top: -65%;
-	margin-right: 5%;
 	min-width: 200px;
 	max-width: 500px;
-	float: right;
-	display: inline-block;	
 }
 
 .textBox .about {

@@ -4,9 +4,12 @@ function renderPost(post) {
     // update html with blog data using $(...).html(data);
     $('.caption').html(post.caption);
 
+    var postDate = new Date(post.date);
+    var dateStr = (postDate.getMonth()+1) + "/" + (postDate.getDate()+1) + "/" + postDate.getFullYear();
+    $('.date').html(dateStr);
 
-    $('.date').html(post.date);
-    $('.tags').html(post.tags);
+
+    $('.tags').html(post.tags.join('<br/>'));
 
 
     var pic = getPic(post);
