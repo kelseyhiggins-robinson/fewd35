@@ -1,19 +1,36 @@
 #container {
      width: 100%;
+     background-image: url('/images/JP.jpg');
+     background-repeat: no-repeat;
 }
 
-.mainImg {
+main {
 	width: 100%;
+}
+
+.logo img { 
+	max-height:225px;
+	width: 20%;
 	float: left;
 	display: inline-block;
 }
 
-
-.logo img { 
-	max-height:225px;
+.textBox {
+	width: 70%;
+	/*height: 75%;*/
+	background-color: #D1D1E0;
+	opacity: .75;
+	padding: 20px;
+	box-shadow: 1px 2px 1px #888888;
+	margin-top: -65%;
+	margin-right: 5%;
+	min-width: 200px;
+	max-width: 500px;
+	float: right;
+	display: inline-block;	
 }
 
-.about {
+.textBox .about {
 	text-align: center;
 	font-family:'Libre Baskerville', serif;
 	font-weight: 700;
@@ -21,34 +38,10 @@
 	font-size: 18px;
 }
 
-/*main {
-	width: 100%;
-}
-
-.mainImg {
-	width: 100%;
-	float: left;
-}
-*/
-
-
-aside {
-	width: 80%;
-	height: 75%;
-	background-color: #E0EBEB;
-	opacity: .75;
-	float: right;
-	padding: 20px;
-	box-shadow: 1px 2px 1px #888888;
-	margin-top: -65%;
-	margin-right: 19%;
-	min-width: 200px;
-	max-width: 500px;
-}
-
-.aboutText {
+.textBox .aboutText {
 	font-family: 'Nunito', sans-serif;
 	font-weight: 300;
+	font-size: 15px;
 }
 
 .contactInfo {
