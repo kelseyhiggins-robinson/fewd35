@@ -38,11 +38,44 @@ main {
 .textBox .aboutText {
 	font-family: 'Nunito', sans-serif;
 	font-weight: 300;
-	font-size: 15px;
+	font-size: 1.2rem;
+	padding-bottom:15px;
 }
 
 .contactInfo {
 	font-family: 'Nunito', sans-serif;
 	font-weight: 400;
 	margin-top: 10px;
+}
+
+@media (min-width:800px) and (max-width:1000px) {
+     main {
+     	right:0;
+     	left: initial;
+     	padding:0;
+     }
+}
+
+@media (max-width:799px) {
+     main {
+     	top:initial;
+     	left: initial;
+     	position:relative;
+     	width:96%;
+     	padding:2%;
+     	margin:0;
+     }
+     .logo {
+     	position: relative;
+     	height: 225px;
+     	padding:0;
+     }
+
+}
+
+@media (max-width:400px) {
+     body {
+     	background-position:-50px;
+     	height:600px;
+     }
 }

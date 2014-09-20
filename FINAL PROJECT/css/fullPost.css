@@ -68,3 +68,61 @@ span {
 	margin: 20px 43px 30px 0;
 }
 
+.logoMobile {
+     display: none;
+}
+
+h3 {
+     font-family: arial;
+}
+
+@media (min-width:720px) and (max-width:990px) {
+     .logoMobile {
+          display:block;
+          width: 100%;
+          text-align: center;
+     }
+
+     .logoMobile img {
+          max-height: 175px;
+      }
+
+     .logo {
+          display:none;
+     }
+
+     main, aside, .tags, .about, .tagTitle {
+     	float:none;
+     	margin: 10px auto;
+     	width:100%;
+     }
+}
+
+@media (min-width:200px) and (max-width:719px) {
+     .logoMobile {
+          display:block;
+          width: 100%;
+          text-align: center;
+     }
+
+     .logoMobile img {
+          max-height: 125px;
+     }
+ 
+ 
+     .item {
+          width:100%;
+          display:inline-block;
+     }
+
+     .logo {
+          display:none;
+     }
+
+     main, aside, .tags, .about, .tagTitle {
+     	width:100%;
+     	float:none;
+     	margin: 10px auto;
+     }
+}
+

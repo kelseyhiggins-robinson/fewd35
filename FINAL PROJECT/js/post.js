@@ -3,9 +3,8 @@ function renderPost(post) {
 
     // update html with blog data using $(...).html(data);
     $('.caption').html(post.caption);
-
-    var postDate = new Date(post.date);
-    var dateStr = (postDate.getMonth()+1) + "/" + (postDate.getDate()+1) + "/" + postDate.getFullYear();
+    var dateStrs = post.date.split(/\s/g)[0].split(/-/g);
+    var dateStr = dateStrs[1] + "/" + dateStrs[2] + "/" + dateStrs[0];
     $('.date').html(dateStr);
 
 
